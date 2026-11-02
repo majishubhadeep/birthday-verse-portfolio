@@ -1,0 +1,576 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10051b">
+  <meta name="description" content="A portfolio showcasing Birthday Verse, a personalized birthday celebration website built with HTML, CSS, and JavaScript.">
+
+  <title>Birthday Verse | Project Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="ambient-glow glow-one"></div>
+  <div class="ambient-glow glow-two"></div>
+  <div class="stars" aria-hidden="true"></div>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+
+    <a class="brand" href="#home" aria-label="Birthday Verse portfolio home">
+      <span class="brand-mark">✦</span>
+      <span>BIRTHDAY <b>VERSE</b></span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="#features">Features</a>
+      <a href="#technology">Technology</a>
+      <a href="#contact" class="nav-cta">Connect</a>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
+
+      <div class="hero-content reveal">
+
+        <p class="eyebrow">
+          <span class="eyebrow-line"></span>
+          A PERSONAL PROJECT · MADE WITH MAGIC
+        </p>
+
+        <h1>
+          Every Birthday<br>
+          Has a <em>Story.</em>
+        </h1>
+
+        <p class="hero-description">
+          A little surprise, a lot of happiness. Birthday Verse turns a special date
+          into a personalized celebration filled with wishes, memories, and magic.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a class="button button-gold"
+             href="https://birthday-verse-ten.vercel.app/"
+             target="_blank"
+             rel="noopener noreferrer">
+
+            Explore Birthday Verse <span>↗</span>
+
+          </a>
+
+          <a class="button button-outline" href="#screenshots">
+            View the Screens <span>↓</span>
+          </a>
+
+        </div>
+
+        <div class="hero-note">
+          <span>✦ ✦ ✦</span>
+          One date. One person. One beautiful moment.
+        </div>
+
+      </div>
+
+      <div class="hero-visual reveal">
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="preview-window">
+
+          <div class="preview-topbar">
+
+            <div class="window-dots">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+
+            <span>birthday-verse.vercel.app</span>
+            <span class="preview-lock">✦</span>
+
+          </div>
+
+          <img src="assets/birthday-home.png"
+               alt="Birthday Verse home screen preview">
+
+          <div class="preview-caption">
+
+            <span class="caption-star">✦</span>
+
+            <div>
+              <strong>A celebration made for you</strong>
+              <small>Birthday Verse · Web Experience</small>
+            </div>
+
+          </div>
+
+        </div>
+
+        <span class="floating-star star-a">✦</span>
+        <span class="floating-star star-b">✧</span>
+        <span class="floating-star star-c">✦</span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+
+      <div class="section-heading reveal">
+
+        <p class="section-label">01 — THE IDEA</p>
+
+        <h2>
+          A digital experience<br>
+          with a <em>personal touch.</em>
+        </h2>
+
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-copy reveal">
+
+          <p>
+            Birthday Verse is a birthday celebration website designed to make
+            someone's special day feel memorable. It guides visitors through a
+            delightful journey—from choosing a profile to discovering a birthday
+            surprise and ending with a heartfelt thank-you.
+          </p>
+
+          <p>
+            The experience combines a dreamy cosmic aesthetic, personalized
+            birthday messages, inspirational quotes, and celebratory animations
+            into one interactive website.
+          </p>
+
+          <div class="project-links">
+
+            <a href="https://birthday-verse-ten.vercel.app/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+              Live Website ↗
+
+            </a>
+
+            <a href="https://github.com/majishubhadeep/birthday-verse"
+               target="_blank"
+               rel="noopener noreferrer">
+
+              GitHub Repository ↗
+
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="project-details reveal">
+
+          <div class="detail-row">
+            <span>PROJECT</span>
+            <strong>Birthday Verse</strong>
+          </div>
+
+          <div class="detail-row">
+            <span>TYPE</span>
+            <strong>Personal Web Project</strong>
+          </div>
+
+          <div class="detail-row">
+            <span>TECH STACK</span>
+            <strong>HTML · CSS · JavaScript</strong>
+          </div>
+
+          <div class="detail-row">
+            <span>DEPLOYMENT</span>
+            <strong>Vercel</strong>
+          </div>
+
+          <div class="detail-row">
+            <span>DESIGN STYLE</span>
+            <strong>Cosmic · Elegant · Interactive</strong>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SCREENSHOT GALLERY -->
+    <section class="section screenshots-section" id="screenshots">
+
+      <div class="section-heading centered reveal">
+
+        <p class="section-label">02 — THE EXPERIENCE</p>
+
+        <h2>
+          Explore Birthday <em>Verse.</em>
+        </h2>
+
+        <p class="section-subtitle">
+          Four moments from a birthday journey.
+        </p>
+
+      </div>
+
+      <div class="screenshot-grid">
+
+        <!-- HOME SCREEN -->
+        <article class="screenshot-card reveal">
+
+          <a class="screenshot-image"
+             href="assets/birthday-home.png"
+             target="_blank"
+             rel="noopener">
+
+            <img src="assets/birthday-home.png"
+                 alt="Birthday Verse home screen"
+                 loading="lazy">
+
+            <span class="image-overlay">
+              View screenshot ↗
+            </span>
+
+          </a>
+
+          <div class="screenshot-info">
+
+            <span class="shot-number">01 / HOME</span>
+
+            <h3>The Welcome</h3>
+
+            <p>
+              A warm, magical entrance into the birthday experience.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- SEARCH SCREEN -->
+        <article class="screenshot-card reveal">
+
+          <a class="screenshot-image"
+             href="assets/birthday-search.png"
+             target="_blank"
+             rel="noopener">
+
+            <img src="assets/birthday-search.png"
+                 alt="Birthday Verse birthday date search screen"
+                 loading="lazy">
+
+            <span class="image-overlay">
+              View screenshot ↗
+            </span>
+
+          </a>
+
+          <div class="screenshot-info">
+
+            <span class="shot-number">02 / SEARCH</span>
+
+            <h3>The Magic Date</h3>
+
+            <p>
+              A simple birthday date entry to begin the personalized journey.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- WISHES SCREEN -->
+        <article class="screenshot-card reveal">
+
+          <a class="screenshot-image"
+             href="assets/birthday-wishes.png"
+             target="_blank"
+             rel="noopener">
+
+            <img src="assets/birthday-wishes.png"
+                 alt="Birthday Verse personalized birthday wishes screen"
+                 loading="lazy">
+
+            <span class="image-overlay">
+              View screenshot ↗
+            </span>
+
+          </a>
+
+          <div class="screenshot-info">
+
+            <span class="shot-number">03 / WISHES</span>
+
+            <h3>A Wish Just for You</h3>
+
+            <p>
+              Personalized birthday greetings, a profile portrait, and inspiration.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- CELEBRATION SCREEN -->
+        <article class="screenshot-card reveal">
+
+          <a class="screenshot-image"
+             href="assets/birthday-celebration.png"
+             target="_blank"
+             rel="noopener">
+
+            <img src="assets/birthday-celebration.png"
+                 alt="Birthday Verse celebration thank-you screen"
+                 loading="lazy">
+
+            <span class="image-overlay">
+              View screenshot ↗
+            </span>
+
+          </a>
+
+          <div class="screenshot-info">
+
+            <span class="shot-number">04 / CELEBRATION</span>
+
+            <h3>The Final Sparkle</h3>
+
+            <p>
+              A heartfelt thank-you screen to close the birthday celebration.
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- FEATURES SECTION -->
+    <section class="section features-section" id="features">
+
+      <div class="section-heading reveal">
+
+        <p class="section-label">03 — WHAT MAKES IT SPECIAL</p>
+
+        <h2>
+          Small details.<br>
+          <em>Beautiful moments.</em>
+        </h2>
+
+      </div>
+
+      <div class="feature-grid">
+
+        <article class="feature-card reveal">
+          <span>✦ 01</span>
+          <h3>Gender Selection</h3>
+          <p>Choose your gender to start your birthday journey.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span>✦ 02</span>
+          <h3>Birthday Search</h3>
+          <p>Enter a birthday date to reveal a special surprise.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span>✦ 03</span>
+          <h3>Personalized Wishes</h3>
+          <p>Birthday greetings with a personal name and portrait.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span>✦ 04</span>
+          <h3>Inspirational Quotes</h3>
+          <p>Thoughtful words to make the birthday feel uplifting.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span>✦ 05</span>
+          <h3>Celebration Effects</h3>
+          <p>Confetti and visual effects add excitement to the moment.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span>✦ 06</span>
+          <h3>Celebration Audio</h3>
+          <p>Audio adds another layer to the birthday experience.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span>✦ 07</span>
+          <h3>Thank-You Screen</h3>
+          <p>A graceful ending after the birthday surprise.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span>✦ 08</span>
+          <h3>Responsive Access</h3>
+          <p>Shareable online experience accessible across devices.</p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- TECHNOLOGY SECTION -->
+    <section class="section technology-section" id="technology">
+
+      <div class="section-heading centered reveal">
+
+        <p class="section-label">04 — BUILT WITH</p>
+
+        <h2>
+          Simple tools.<br>
+          <em>Creative possibilities.</em>
+        </h2>
+
+      </div>
+
+      <div class="tech-list reveal">
+
+        <div class="tech-item">
+          <span class="tech-symbol html-symbol">5</span>
+          <div>
+            <strong>HTML</strong>
+            <small>Structure and content</small>
+          </div>
+        </div>
+
+        <div class="tech-item">
+          <span class="tech-symbol css-symbol">✳</span>
+          <div>
+            <strong>CSS</strong>
+            <small>Visual design and responsive styling</small>
+          </div>
+        </div>
+
+        <div class="tech-item">
+          <span class="tech-symbol js-symbol">JS</span>
+          <div>
+            <strong>JavaScript</strong>
+            <small>Interactions and dynamic behavior</small>
+          </div>
+        </div>
+
+        <div class="tech-item">
+          <span class="tech-symbol vercel-symbol">▲</span>
+          <div>
+            <strong>Vercel</strong>
+            <small>Website deployment and hosting</small>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+
+      <div class="contact-card reveal">
+
+        <span class="contact-star">✦</span>
+
+        <p class="section-label">LET'S CONNECT</p>
+
+        <h2>
+          Thanks for being<br>
+          part of this <em>story.</em>
+        </h2>
+
+        <p>
+          Explore the project, view the source code,
+          and discover the experience yourself.
+        </p>
+
+        <div class="hero-buttons centered-buttons">
+
+          <a class="button button-gold"
+             href="https://birthday-verse-ten.vercel.app/"
+             target="_blank"
+             rel="noopener noreferrer">
+
+            Visit Live Website ↗
+
+          </a>
+
+          <a class="button button-outline"
+             href="https://github.com/majishubhadeep/birthday-verse"
+             target="_blank"
+             rel="noopener noreferrer">
+
+            View GitHub ↗
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">✦</span>
+      <span>BIRTHDAY <b>VERSE</b></span>
+    </a>
+
+    <p>Made for moments worth remembering.</p>
+
+    <a href="#home" class="back-top">
+      BACK TO TOP ↑
+    </a>
+
+    <small>
+      © <span id="year"></span> Birthday Verse · Portfolio Showcase
+    </small>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
